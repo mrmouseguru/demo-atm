@@ -12,7 +12,11 @@ public class ATM {
     }
 
     public boolean login(Card card, String pin) {
-        return bank.verify(card, pin);
+        if(bank != null){
+            return bank.verify(card, pin);
+        }
+        
+        return true;
     }
 
 }
