@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: RunCucumberTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.266 s <<< FAILURE! - in RunCucumberTest
+ATM Login.AC1 (Happy path) - Dang nhap thanh cong  Time elapsed: 0.092 s  <<< ERROR!
+io.cucumber.java.PendingException: TODO: implement me
+	at com.atm.bdd.ATMLoginSteps.validCard(ATMLoginSteps.java:12)
+	at ✽.Thẻ ATM hợp lệ(classpath:com/atm/atm_login.feature:3)
+
